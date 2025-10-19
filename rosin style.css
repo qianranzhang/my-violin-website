@@ -10,7 +10,7 @@
   text-decoration: none;
 }
 
-.strings{
+.rosin{
   grid-template-columns: 2fr 1fr;
   padding: 30px;
   align-items: center;
@@ -23,18 +23,18 @@
   justify-items: center;
 }
 
-.string{
+.rosin-item{
     text-align: center;
 }
 
-.string img{
-  width: 50%;                     
-  height:max-content;
+.rosin-item img{
+  width:auto;                     
+  height: 300px;
   border-radius: 10px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
-.string p{
+.rosin-item p{
     font-size: 20px;
     margin-right: 30px;
     margin-top: 10px;
@@ -46,3 +46,4 @@ h1{
     margin-top: 20px;
     font-size: 23px;
 }
+
