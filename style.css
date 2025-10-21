@@ -2,8 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
 .nav-bar {
   display: flex;
@@ -11,12 +10,21 @@
   padding: 15px;
   font-weight: bold;
   background-color: #f2e7db;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #735c48;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
 }
 
-.nav-item {
+.nav-bar h1 {
   font-weight: bold;
   font-size: 20px;
+  color: #735c48;
+  text-decoration-color: #735c48;
+}
+
+a{
+  color:#735c48;
 }
 
 body {
@@ -36,6 +44,7 @@ body {
 /* Info section (left side) */
 .info-section{
   margin-left: 15px;
+  margin-right: 15px;
 }
 
 .info-section h1 {
@@ -83,14 +92,6 @@ body {
   transform: scale(1.05);          
 }
 
-/*Violin image (right side)*/
-.violin-image img {
-  width: 30%;
-  border-radius: 10px;
-  object-fit:contain;
-  align: center;
-}
-
 /*Footer*/
 footer {
   text-align: center;
@@ -100,7 +101,7 @@ footer {
   border-top: 2px solid #ddd;
 }
 
-guide{
+.text guide{
   color:#4a3505;
   font-weight: bold;
 }
